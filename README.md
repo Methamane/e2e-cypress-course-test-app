@@ -8,7 +8,7 @@ I wasn't able to use the provided test app as it seems to be outdated, and I don
 
 ## Caveat
 This is a python webapp using the nicegui framework which wraps around [quasar.dev](https://quasar.dev/) web framework, and I think it is slightly different than the framework used in the course test app.
-Due to those differences there are some quirks with this app where css selectors don't work becuase things are structured differently (could be due to the python wrapping as well ¯\_(ツ)_/¯).
+Due to those differences there are some quirks with this app where css selectors don't work becuase things are structured differently (could be due to the python wrapping as well ¯\\_(ツ)_/¯).
 
 The provided tests are the ones I found to work with this test app using a Firefox engine with Cypress (Electron was failing on some tests).
 
