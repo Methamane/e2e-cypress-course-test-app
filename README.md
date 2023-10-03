@@ -14,3 +14,18 @@ The provided tests are the ones I found to work with this test app using a Firef
 
 ## Disclaimer
 This test app and tests are provided as is, if they are not working as expected investigate by inspecting the page elements (this has been a trial and error for me as well)
+
+
+## Instructions
+1. Clone the repository
+2. Open a terminal in the folder
+3. Run `python3 -m venv venv`*
+   1. You might need to install venv, follow terminal instructions
+4. Run `source venv/bin/activate`*
+5. Once venv is activated run `pip install nicegui`
+6. Run `python example_app.py` to launch the webapp, you can close the opened browser window.
+   1. The webapp runs while the terminal is open.
+   2. `Ctrl+c` to terminate webapp in terminal.
+
+Terminal commands with __*__ are for Linux (bash/zsh), should work on Mac using zsh.
+Follow [venv](https://docs.python.org/3/library/venv.html) documentation for instructions for other systems.
